@@ -13,13 +13,24 @@ MUSIC AND GAMBLING BOT
    - Open the necessary configuration file or source code.
    - Edit the path to `ffmpeg.exe` to match your system.
 
-3. **Start the Bot**
+3. **Install Dependencies**
+   - Ensure you have `pip` installed.
+   - Install the required Python packages by running:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. **Start the Bot**
    - Open a terminal or Git Bash.
    - Run the following command to start the bot:
      ```bash
      python run.py
      ```
 
-4. **Use the Bot**
+5. **Use the Bot**
    - Type `/bothelp` in Discord to view available commands and help.
+
+## Dependencies
+
+Make sure to include a `requirements.txt` file in your repository with the list of dependencies. An example of `requirements.txt`:
 
